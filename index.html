@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta charset="UTF-8">
+	<title>Беловодский кирпичный завод</title>
+	<link rel="icon" href="img/logo.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/uikit.css">
+	<link rel="stylesheet" href="css/humburger.css">
+	<link href="css/jquery.jgrowl.css" rel="stylesheet" type="text/css">
+	<link href="css/jquery.arcticmodal.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="menu__mini">
+		<div class="header">
+			<div class="logo_mini">
+				<img src="img/logo_new.png" alt="logo">
+			</div>
+		</div>
+		<input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+		<label for="openSidebarMenu" class="sidebarIconToggle">
+			<div class="spinner diagonal part-1"></div>
+			<div class="spinner horizontal"></div>
+			<div class="spinner diagonal part-2"></div>
+		</label>
+		<div id="sidebarMenu">
+			<ul class="sidebarMenuInner">
+				<li><a href="#main">ГЛАВНАЯ</a></li>
+				<li><a href="#company">О КОМПАНИИ</a></li>
+				<li><a href="#product">ПРОДУКЦИЯ</a></li>
+				<li><a href="#postavka">ПОСТАВКИ</a></li>
+				<li><a href="#tehnology">ТЕХНОЛОГИЯ</a></li>
+				<li><a href="#calculator">КАЛЬКУЛЯТОР</a></li>
+				<li><a href="#contact">КОНТАКТЫ</a></li>
+				<li><a href="#modal-sections" uk-toggle>СДЕЛАТЬ ЗАКАЗ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="container" id="cont">
+		<div class="menu">
+			<menu class="nav__list" id="menu">
+				<li class="nav__item">
+					<div class="logo">
+						<img src="img/logo_new.png" alt="logo">
+					</div>
+				</li>
+				<li class="nav__item uk-animation-toggle">
+					<div class="uk-card  uk-animation-scale-up uk-transform-origin-top-center">
+						<a href="#main" class="nav__link kirpich__link uk-text-center">ГЛАВНАЯ</a>
+					</div>
+				</li>
+				<li class="nav__item uk-animation-toggle">
+					<div class="uk-card  uk-animation-scale-up uk-transform-origin-top-center">
+						<a href="#company" class="nav__link kirpich__link uk-text-center">О КОМПАНИИ</a>
+					</div>
+				</li>
+				<li class="nav__item uk-animation-toggle">
+					<div class="uk-card  uk-animation-scale-up uk-transform-origin-top-center">
+						<a href="#product" class="nav__link kirpich__link uk-text-center active">ПРОДУКЦИЯ</a>
+					</div>
+				</li>
+				<li class="nav__item uk-animation-toggle">
+					<div class="uk-card  uk-animation-scale-up uk-transform-origin-top-center">
+						<a href="#postavka" class="nav__link kirpich__link uk-text-center">ПОСТАВКИ</a>
+					</div>
+				</li>
+				<li class="nav__item uk-animation-toggle">
+					<div class="uk-card  uk-animation-scale-up uk-transform-origin-top-center">
+						<a href="#tehnology" class="nav__link kirpich__link uk-text-center">ТЕХНОЛОГИЯ</a>
+					</div>
+				</li>
+				<li class="nav__item uk-animation-toggle">
+					<div class="uk-card  uk-animation-scale-up uk-transform-origin-top-center">
+						<a href="#calculator" class="nav__link kirpich__link uk-text-center">КАЛЬКУЛЯТОР</a>
+					</div>
+				</li>
+				<li class="nav__item uk-animation-toggle">
+					<div class="uk-card  uk-animation-scale-up uk-transform-origin-top-center">
+						<a href="#contact" class="nav__link kirpich__link uk-text-center">КОНТАКТЫ</a>
+					</div>
+				</li>
+				<li class="nav__item uk-animation-toggle">
+					<div class="uk-card  uk-animation-scale-up uk-transform-origin-top-center">
+						<a href="#modal-sections" class="nav__link kirpich__link uk-text-center" uk-toggle>СДЕЛАТЬ ЗАКАЗ</a>
+					</div>
+				</li>
+			</menu>
+		</div>
+		<div class="slider" id="main">
+			<div class="uk-position-relative uk-visible-toggle uk-light" uk-slideshow="autoplay: true; autoplay-interval: 5000; animation: scale; max-height: 500; pause-on-hover: false">
+				<ul class="uk-slideshow-items">
+					<li>
+						<img src="img/slider_new1.jpg" alt="foto_slider" uk-cover>
+						<div class="uk-overlay uk-position-top-right uk-position-small slider_foto_mini">
+							<img src="img/map_slider.png" alt="adress_slider">
+						</div>
+						<div class="uk-overlay uk-position-top-left uk-position-small slider__text slider_foto_mini">
+							<div>С нами строят на века!</div>
+							<div><img src="img/flag.png" alt="flag" class="flag_kirgiz"></div>
+						</div>
+					</li>
+					<li>
+						<img src="img/slider_new2.jpg" alt="foto_slider" uk-cover>
+						<div class="uk-overlay uk-position-top-right uk-position-small slider_foto_mini">
+							<img src="img/map_slider2.png" alt="map_slider">
+						</div>
+						<div class="uk-overlay uk-position-top-left uk-position-small slider__text slider_foto_mini">
+							<div>С нами строят на века!</div>
+							<div><img src="img/flag.png" alt="flag" class="flag_kirgiz"></div>
+						</div>
+					</li>
+					<li>
+						<img src="img/slider_new3.jpg" alt="foto_slider" uk-cover>
+						<div class="uk-overlay uk-position-top-right uk-position-small slider_foto_mini">
+							<img src="img/map_slider.png" alt="map_slider">
+						</div>
+						<div class="uk-overlay uk-position-top-left uk-position-small slider__text slider_foto_mini">
+							<div>С нами строят на века!</div>
+							<div><img src="img/flag.png" alt="flag" class="flag_kirgiz"></div>
+						</div>
+					</li>
+					<li>
+						<img src="img/slider_new4.jpg" alt="foto_slider" uk-cover>
+						<div class="uk-overlay uk-position-top-right uk-position-small slider_foto_mini">
+							<img src="img/map_slider2.png" alt="map_slider">
+						</div>
+						<div class="uk-overlay uk-position-top-left uk-position-small slider__text slider_foto_mini">
+							<div>С нами строят на века!</div>
+							<div><img src="img/flag.png" alt="flag" class="flag_kirgiz"></div>
+						</div>
+					</li>
+				</ul>
+				<a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+				<a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+			</div>
+		</div>
+		<div class="zakaz">
+			<div class="zakaz__title">Продажа кирпича от производителя</div>
+			<div class="zakaz__text">Мы работаем с 1936 года. За все время построены тысячи объектов, наша продукция всегда ценится профессиональными строителями. <br> В 2017 год начат первый этап модернизации производства.</div>
+			<div>
+				<a href="#modal-sections" class="button__zakaz" uk-toggle>СДЕЛАТЬ ЗАКАЗ</a>
+			</div>
+		</div> 
+		<div class="flag__right" id="company">
+			<div class="flag">
+				<div class="flag__text">
+					<img src="img/text1.jpg" alt="text">
+				</div>
+			</div>
+		</div>
+		<div class="company">
+			<div class="uk-text-center" uk-grid>
+				<div class="uk-width-expand@m">
+					<div class="uk-card">
+						<iframe src="https://www.youtube.com/embed/OacayrSUCGQ?autoplay=0&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;playsinline=1" width="560" height="415" frameborder="0" allowfullscreen uk-responsive uk-video="automute: true"></iframe>
+					</div>
+				</div>
+				<div class="uk-width-expand@m">
+					<div class="uk-card" id="mini_par">
+							<p> Беловодский кирпичный завод был основан в 1936 году.</p>  
+
+							<p> Наша продукция поставляется, не только на внутренний рынок Кыргызской Республики, но и в соседние страны СНГ (Россия, Казахстан и др.) </p>
+
+							<p> В 2018 году запущена программа по модернизации формовки, сушки и обжига кирпича, что существенно улучшило качество нашей продукции. </p>
+
+							<p> Оборудование закуплено у ведущих производителей России и Республики Беларусь.</p>
+
+							<p> В настоящее время осуществляются поставки крупным строительным компаниям на строительные площадки высотных домов в Бишкеке, пансионатов на озере Иссык-Куль, частных объектов по всей территории Кыргызской Республики.</p>
+
+							<p> Наша команда профессионалов своего дела с огромным опытом работы, постоянно совершенствует производственный процесс с применением новых технологий. </p>
+							<p> Мы гордимся своей историей и производством качественной продукции, которая отвечает высочайшим стандартам качества.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="flag__left" id="product">
+			<div class="flag">
+				<div class="flag__text">
+					<img src="img/text2.jpg" alt="text">
+				</div>
+			</div>
+		</div>
+		<div class="product">
+			<div class="product__title">Кирпич пустотелый</div>
+			<div class="uk-text-center" uk-grid>
+				<div class="uk-width-1-3@m">
+					<div class="uk-card uk-card-body karta__block">
+						<img src="img/kirpich_new1.jpg" alt="kirpich1" class="table__foto">
+						<div class="product__foto__text">
+							Начиличие данного логотипа является гарантией качества, проверенного годами!
+						</div>
+					</div>
+				</div>
+				<div class="uk-width-expand@m">
+					<div class="uk-card uk-card-default uk-card-body">
+						<table class="uk-table uk-table-striped uk-table-responsive uk-table-divider">
+							<thead>
+								<tr class="table__tr">
+									<th class="table__head">Вид</th>
+									<th class="table__head">Пустотелый</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="table__tr">
+									<td class="table__td">Размеры, мм</td>
+									<td class="table__td">250 x 120 x 88</td>
+								</tr>
+								<tr class="table__tr">
+									<td class="table__td">Масса, кг</td>
+									<td class="table__td">3,8</td>
+								</tr>
+								<tr class="table__tr">
+									<td class="table__td">Морозостойкость, цикл</td>
+									<td class="table__td">F - 25</td>
+								</tr>
+								<tr class="table__tr">
+									<td class="table__td">Водопоглощение, %</td>
+									<td class="table__td">18</td>
+								</tr>
+								<tr class="table__tr">
+									<td class="table__td">Марка по прочности</td>
+									<td class="table__td">100 - 125</td>
+								</tr>
+								<tr class="table__tr">
+									<td class="table__td">Пустотность, %</td>
+									<td class="table__td">13</td>
+								</tr>
+								<tr class="table__tr">
+									<td class="table__td">Количество штук в пакете</td>
+									<td class="table__td">302</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div class="product__title">Кирпич полнотелый</div>
+			<div class="uk-text-center" uk-grid>
+				<div class="uk-width-expand@m">
+					<div class="uk-card uk-card-default uk-card-body">
+						<table class="uk-table uk-table-striped uk-table-responsive uk-table-divider">
+							<thead>
+								<tr class="table__tr">
+									<th class="table__head">Вид</th>
+									<th class="table__head">Полнотелый</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="table__tr">
+									<td class="table__td">Размеры, мм</td>
+									<td class="table__td">250 x 120 x 65</td>
+								</tr>
+								<tr class="table__tr">
+									<td class="table__td">Масса, кг</td>
+									<td class="table__td">3,4</td>
+								</tr>
+								<tr class="table__tr">
+									<td class="table__td">Морозостойкость, цикл</td>
+									<td class="table__td">F - 25</td>
+								</tr>
+								<tr class="table__tr">
+									<td class="table__td">Водопоглощение, %</td>
+									<td class="table__td">6</td>
+								</tr>
+								<tr class="table__tr">
+									<td class="table__td">Марка по прочности</td>
+									<td class="table__td">100 - 125</td>
+								</tr>
+								<tr class="table__tr">
+									<td class="table__td">Пустотность, %</td>
+									<td class="table__td">0</td>
+								</tr>
+								<tr class="table__tr">
+									<td class="table__td">Количество штук в пакете</td>
+									<td class="table__td">340</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="uk-width-1-3@m">
+					<div class="uk-card uk-card-body karta__block">
+						<img src="img/kirpich_new2.jpg" alt="kirpich2" class="table__foto">
+						<div class="product__foto__text">
+							Начиличие данного логотипа является гарантией качества, проверенного годами!
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="product__footer">Кирпич на заказ. <br>
+				Мы готовы изготовить кирпич по Вашему заказу любой формы и логотипом по Вашему желанию.
+			</div>
+			<div class="uk-text-center" uk-grid>
+				<div class="uk-width-expand@m">
+					<div class="uk-card uk-card-body">
+						<a href="img/Scan1.jpg" target="_blank">
+							<img src="img/Scan1.jpg" alt="Scan1" class="scan__foto">
+						</a>
+					</div>
+				</div>
+				<div class="uk-width-expand@m">
+					<div class="uk-card uk-card-body">
+						<a href="img/Scan2.jpg" target="_blank">
+							<img src="img/Scan2.jpg" alt="Scan2" class="scan__foto">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="flag__right" id="postavka">
+			<div class="flag">
+				<div class="flag__text">
+					<img src="img/text3.jpg" alt="text">
+				</div>
+			</div>
+		</div>
+		<div class="postavka company">
+			<div class="uk-text-center" uk-grid>
+				<div class="uk-width-expand@m">
+					<div class="uk-card uk-card-body karta__block">
+						<img src="img/kamaz1.jpg" alt="kamaz" class="postavka_foto">
+					</div>
+				</div>
+				<div class="uk-width-expand@m">
+					<div class="uk-card uk-card-default uk-card-body">
+						<div class="postavka__text">
+							По всем вопросам можете обращаться: <br>
+							с. Беловодское	+ 996 (772) 008 006 <br>
+							г. Бишкек + 996 (507) 911 119
+						</div>
+						<div class="postavka__text_another">
+							Доставка по Чуйской области 1,0-2,0 сом/шт. <br>
+							Возможна поставка кирпича в поддонах
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="flag__left" id="tehnology">
+			<div class="flag">
+				<div class="flag__text">
+					<img src="img/text4.jpg" alt="text">
+				</div>
+			</div>
+		</div>
+		<div class="tehnology company">
+			<div class="tehnology__title">
+				Продукция "БКЗ" производится на белорусском оборудовании, с соблюдением всех технологических
+				процессов и соответствует всем стандартам международного качества со времен СССР.
+			</div>
+			<img data-src="img/technology.png" alt="technology" uk-img>
+		</div>
+		<div class="flag__right" id="calculator">
+			<div class="flag">
+				<div class="flag__text">
+					<img src="img/text5.jpg" alt="text">
+				</div>
+			</div>
+		</div>
+		<div class="calculator company">
+			<div>
+				<div class="calculator__link"><a href="http://stroy-calc.ru/">Stroy-calc</a> - Профессиональные строительные калькуляторы</div>
+				<iframe id="iframe" name="iframe"
+				src="http://stroy-calc.ru/widj?str=raschet-kirpicha&font=Helvetica%20Neue,Arial,
+				sans-serif&bgcol=fff&tcol=000&dis=none" height="570px" width="100%" marginwidth=0 marginheight=0 frameborder=0></iframe>
+			</div>
+		</div>
+		<div class="flag__left" id="contact">
+			<div class="flag">
+				<div class="flag__text">
+					<img src="img/text6.jpg" alt="text">
+				</div>
+			</div>
+		</div>
+		<div class="contact company">
+			<div class="uk-text-center" uk-grid>
+				<div class="uk-width-expand@m">
+					<div class="uk-card uk-card-default uk-card-body karta__block">
+						<div id="map">
+						</div>
+					</div>
+				</div>
+				<div class="uk-width-expand@m">
+					<div class="uk-card uk-card-default uk-card-body karta__block">
+						<div id="map2">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">Все права защищены © 2018 ОсОО "БКЗ"</div>
+		<a href="#cont" class="scroll__up" uk-icon="icon: chevron-up"></a>
+		<div id="modal-sections" uk-modal id="modal__text">
+			<div class="uk-modal-dialog">
+				<button class="uk-modal-close-default" type="button" uk-close></button>
+				<div class="uk-modal-header">
+					<h2 class="uk-modal-title title__modal" id="modal__text">Мы с Вами свяжемся в течении часа</h2>
+				</div>
+				<div class="uk-modal-body">
+					<form action="" name="form-1">
+						<fieldset class="uk-fieldset">
+
+							<legend class="uk-legend" id="modal__text">Ваше имя</legend>
+
+							<div class="uk-margin input__modal">
+								<span class="icon__modal" uk-icon="icon: user"></span>
+								<input class="uk-input input__m name" type="text" name="name" placeholder>
+							</div>
+
+							<legend class="uk-legend" id="modal__text">Ваш телефон</legend>
+
+							<div class="uk-margin input__modal">
+								<span class="icon__modal" uk-icon="icon: receiver"></span>
+								<input class="uk-input input__m tell" type="text" name="tell" placeholder>
+							</div>
+							<div class="uk-modal-footer uk-text-right">
+								<input class="feedback uk-button uk-button-primary button__moda" name="send" type="button" value="Отправить" id="modal__text">
+								<button class="uk-button uk-button-default uk-modal-close" type="button" id="modal__text">назад</button>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- <script src="js/jquery-3.3.1.min.js"></script> -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="js/uikit.js"></script>
+	<script src="js/uikit-icons.js"></script>
+	<script src="js/script.js"></script>
+	<script>
+		function initMap()
+		{
+			var element = document.getElementById('map');
+			var options = {
+				zoom: 15,
+				center: {lat: 42.875000, lng: 74.609870}
+			};
+
+			var myMap = new google.maps.Map(element, options);
+
+			var marker = new google.maps.Marker({
+				position: {lat: 42.871909, lng: 74.609870},
+				map: myMap
+			});
+
+			var infoWindow = new google.maps.InfoWindow({
+				content: '<table class="uk-table uk-table-divider">'+
+				'<thead>'+
+				'<tr>'+
+				'<th class="table__td__kartitle">г. Бишкек</th>'+
+				'</tr>'+
+				'</thead>'+
+				'<tbody>'+
+				'<tr>'+
+				'<td class="table__td__karta"><span uk-icon="icon:  location; ratio: 1" class="karta__icon"></span><span>г. Бишкек, ул. <br></span><span class="karta__br">Токтогула, 86</span></td>'+
+				'</tr>'+
+				'<tr>'+
+				'<td class="table__td__karta"><span uk-icon="icon:  receiver; ratio: 1" class="karta__icon"></span><span>+ 996 (507) 911 119</span></td>'+
+				'</tr>'+
+				'<tr>'+
+				'<td class="table__td__karta"><span uk-icon="icon: mail; ratio: 1" class="karta__icon"></span><span>ocoo.bkz@mail.ru</span></td>'+
+				'</tr>'+
+				'<tr>'+
+				'<td class="table__td__karta"><span uk-icon="icon:  link; ratio: 1" class="karta__icon"></span><span>bkz.kg</span></td>'+
+				'</tr>'+
+				'</tbody>'+
+				'</table>'
+			});
+
+			infoWindow.open(myMap, marker);
+
+			marker.addListener('click', function(){
+				infoWindow.open(myMap, marker);
+			});
+
+
+			var element2 = document.getElementById('map2');
+			var options2 = {
+				zoom: 15,
+				center: {lat:  42.837295, lng: 74.120130}
+			};
+
+			var myMap2 = new google.maps.Map(element2, options2);
+
+			var marker2 = new google.maps.Marker({
+				position: {lat: 42.834295, lng: 74.120130},
+				map: myMap2
+			});
+
+			var infoWindow2 = new google.maps.InfoWindow({
+				content:  '<table class="uk-table uk-table-divider">'+
+				'<thead>'+
+				'<tr>'+
+				'<th class="table__td__kartitle">с. Беловодское</th>'+
+				'</tr>'+
+				'</thead>'+
+				'<tbody>'+
+				'<tr>'+
+				'<td class="table__td__karta"><span uk-icon="icon:  location; ratio: 1" class="karta__icon"></span><span>с. Беловодское  <br></span><span class="karta__br">ул. Фрунзе, 337</span></td>'+
+				'</tr>'+
+				'<tr>'+
+				'<td class="table__td__karta"><span uk-icon="icon:  receiver; ratio: 1" class="karta__icon"></span><span>+ 996 (772) 008 006</span></td>'+
+				'</tr>'+
+				'<tr>'+
+				'<td class="table__td__karta"><span uk-icon="icon: mail; ratio: 1" class="karta__icon"></span><span>ocoo.bkz@mail.ru</span></td>'+
+				'</tr>'+
+				'<tr>'+
+				'<td class="table__td__karta"><span uk-icon="icon:  link; ratio: 1" class="karta__icon"></span><span>bkz.kg</span></td>'+
+				'</tr>'+
+				'</tbody>'+
+				'</table>'
+			});
+
+			infoWindow2.open(myMap2, marker2);
+
+			marker2.addListener('click', function(){
+				infoWindow.open(myMap2, marker2);
+			});
+		}
+	</script>
+	<script async defer
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSOZgsmGMVygOXgTkkLN_xQwuLR0lNZ5k&language=ru&callback=initMap">
+</script>
+<script type="text/javascript" src="js/jquery.jgrowl.js"></script>
+<script type="text/javascript" src="js/jquery.arcticmodal.js"></script>
+<script type="text/javascript" src="js/feedback.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(document).on('click', '.modal_btn', function(){
+			$('#small-modal').arcticmodal();
+		});
+	});
+</script>
+
+</body>
+</html>
